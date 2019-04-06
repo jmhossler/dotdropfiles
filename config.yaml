@@ -22,6 +22,9 @@ dotfiles:
   f_init.vim:
     dst: ~/.config/nvim/init.vim
     src: config/nvim/init.vim
+  f_plug.vim:
+    dst: ~/.local/share/nvim/site/autoload/plug.vim
+    src: local/share/nvim/site/autoload/plug.vim
   f_profile:
     dst: ~/.profile
     src: profile
@@ -37,3 +40,6 @@ profiles:
     - d_bash_it
     - f_profile
     - d_tmux
+  main:
+    dotfiles:
+    - f_plug.vim
