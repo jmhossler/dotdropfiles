@@ -1,0 +1,35 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  ignoreempty: false
+  keepdot: false
+  link_by_default: false
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  d_bash_it:
+    dst: ~/.bash_it
+    src: bash_it
+  f_bashrc:
+    dst: ~/.bashrc
+    src: bashrc
+  f_init.vim:
+    dst: ~/.config/nvim/init.vim
+    src: config/nvim/init.vim
+  f_profile:
+    dst: ~/.profile
+    src: profile
+  f_tmux.conf:
+    dst: ~/.tmux.conf
+    src: tmux.conf
+profiles:
+  base:
+    dotfiles:
+    - f_init.vim
+    - f_tmux.conf
+    - f_bashrc
+    - d_bash_it
+    - f_profile
