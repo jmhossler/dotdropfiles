@@ -13,6 +13,9 @@ dotfiles:
   d_bash_it:
     dst: ~/.bash_it
     src: bash_it
+  d_tmux:
+    dst: ~/.tmux
+    src: tmux
   f_bashrc:
     dst: ~/.bashrc
     src: bashrc
@@ -33,3 +36,4 @@ profiles:
     - f_bashrc
     - d_bash_it
     - f_profile
+    - d_tmux
