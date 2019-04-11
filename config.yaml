@@ -14,6 +14,9 @@ dotfiles:
   d_bash_it:
     dst: ~/.bash_it
     src: bash_it
+  d_oh-my-zsh:
+    dst: ~/.oh-my-zsh
+    src: oh-my-zsh
   d_tmux:
     dst: ~/.tmux
     src: tmux
@@ -35,6 +38,9 @@ dotfiles:
   f_tmux.conf:
     dst: ~/.tmux.conf
     src: tmux.conf
+  f_zshrc:
+    dst: ~/.zshrc
+    src: zshrc
 profiles:
   base:
     dotfiles:
@@ -46,6 +52,8 @@ profiles:
     - d_tmux
     - f_plug.vim
     - f_gitconfig
+    - d_oh-my-zsh
+    - f_zshrc
   work:
     dotfiles:
     - f_init.vim
@@ -56,3 +64,5 @@ profiles:
     - d_tmux
     - f_plug.vim
     - f_gitconfig
+    - d_oh-my-zsh
+    - f_zshrc
