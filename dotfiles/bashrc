@@ -1,5 +1,11 @@
 # If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+if [[ $DISPLAY ]]; then
+    # If not running interactively, do not do anything
+    [[ $- != *i* ]] && return
+    if [[ -z "$TMUX" ]]; then
+      tmux a || tmux
+    fi
+fi
 
 main() {
   setup_all_the_bash_stuff

@@ -22,6 +22,11 @@ if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gno
 	set t_CO=256
 endif
 
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 :nmap \e :NERDTreeToggle<CR>
 :nmap \T :set expandtab tabstop=8 shiftwidth=8 softtabstop=4<CR>
 :nmap \t :set expandtab tabstop=4 shiftwidth=4 softtabstop=4<CR>
