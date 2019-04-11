@@ -20,6 +20,9 @@ dotfiles:
   f_bashrc:
     dst: ~/.bashrc
     src: bashrc
+  f_gitconfig:
+    dst: ~/.gitconfig
+    src: gitconfig
   f_init.vim:
     dst: ~/.config/nvim/init.vim
     src: config/nvim/init.vim
@@ -41,6 +44,15 @@ profiles:
     - d_bash_it
     - f_profile
     - d_tmux
-  main:
-    dotfiles:
     - f_plug.vim
+    - f_gitconfig
+  work:
+    dotfiles:
+    - f_init.vim
+    - f_tmux.conf
+    - f_bashrc
+    - d_bash_it
+    - f_profile
+    - d_tmux
+    - f_plug.vim
+    - f_gitconfig

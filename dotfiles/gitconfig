@@ -1,0 +1,15 @@
+{%@@ if profile == "work" @@%}
+[hub]
+	host = github.adtran.com
+{%@@ endif @@%}
+
+[user]
+{%@@ if profile == "work" @@%}
+  email = john.hossler@adtran.com
+{%@@ elif profile == "base" @@%}
+  email = john.m.hossler@gmail.com
+{%@@ endif @@%}
+  name = John Hossler
+
+[alias]
+  gud = commit -am

@@ -22,6 +22,9 @@ main() {
   alias vpn='sudo openconnect -b -l -u JHossler --juniper vpn.adtran.com'
   alias vpn-reset='sudo kill -6 $(pidof openconnect)'
   shopt -s checkwinsize
+  {%@@ if profile == "work" @@%}
+  export GITHUB_HOST=github.adtran.com
+  {%@@ endif @@%}
 }
 
 create_aliases() {
