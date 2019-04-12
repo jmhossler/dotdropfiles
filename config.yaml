@@ -29,6 +29,9 @@ dotfiles:
   f_init.vim:
     dst: ~/.config/nvim/init.vim
     src: config/nvim/init.vim
+  f_kitty.conf:
+    dst: ~/.config/kitty/kitty.conf
+    src: config/kitty/kitty.conf
   f_plug.vim:
     dst: ~/.local/share/nvim/site/autoload/plug.vim
     src: local/share/nvim/site/autoload/plug.vim
@@ -54,6 +57,7 @@ profiles:
     - f_gitconfig
     - d_oh-my-zsh
     - f_zshrc
+    - f_kitty.conf
   work:
     dotfiles:
     - f_init.vim
@@ -66,3 +70,4 @@ profiles:
     - f_gitconfig
     - d_oh-my-zsh
     - f_zshrc
+    - f_kitty.conf
