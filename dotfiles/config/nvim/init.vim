@@ -9,6 +9,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
+Plug 'ambv/black'
 
 " Vim-Plug end
 call plug#end()
@@ -60,7 +61,11 @@ endfunction
 
 nnoremap <silent> <Leader>rts   :call TrimWhiteSpace()<CR>
 
+" Automatic commands triggered by actions
+
 autocmd FileWritePre    * :call TrimWhiteSpace()
 autocmd FileAppendPre   * :call TrimWhiteSpace()
 autocmd FilterWritePre  * :call TrimWhiteSpace()
 autocmd BufWritePre     * :call TrimWhiteSpace()
+
+autocmd BufWritePre *.py execute ':Black'
