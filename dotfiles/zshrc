@@ -69,6 +69,13 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# delete the bad host key from the previous ssh command
+purgehostkey() {
+  lineno=$(eval $history[$((HISTCMD-1))] 2>&1 | grep -oP 'known_hosts:\K\d+')
+  known_hosts=~/.ssh/known_hosts
+  host=$(sed -n "${lineno}p" $known_hosts | cut --delimiter=' ' --fields=1)
+  sed -i -e "${lineno}d" $known_hosts
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
