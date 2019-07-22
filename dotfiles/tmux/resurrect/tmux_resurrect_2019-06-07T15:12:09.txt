@@ -1,0 +1,19 @@
+pane	0	0	:zsh	0	:	0	:/home/john/3dprinter/t_nut_m3_3030	1	zsh	:
+pane	0	1	:prusa-slicer	1	:*	0	:/mnt/big_boi/Downloads/PrusaSlicer-2.0.0+linux64-201905201652	1	zsh	:
+pane	0	2	:zsh	0	:	0	:/home/john/3dprinter	1	zsh	:
+pane	0	2	:zsh	0	:	1	:/mnt/big_boi/Downloads	0	zsh	:
+pane	0	3	:zsh	0	:	0	:/home/john/git/resume-1	1	zsh	:
+pane	0	4	:zsh	0	:-	0	:/home/john	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/home/john/hub-tnt	0	nvim	:nvim script.txt
+pane	1	0	:zsh	1	:*	1	:/home/john/hub-tnt/mr_noodle	1	hub	:hub sync
+pane	1	1	:ssh	0	:	0	:/home/john/hub-tnt/baby-charles (deleted)	1	ssh	:ssh jhossler-desktop -Y
+pane	1	2	:zsh	0	:-	0	:/home/john	1	zsh	:
+window	0	0	0	:	ca5e,213x57,0,0,1
+window	0	1	1	:*	b85f,274x71,0,0,2
+window	0	2	0	:	5553,213x57,0,0[213x28,0,0,3,213x28,0,29,4]
+window	0	3	0	:	ca62,213x57,0,0,5
+window	0	4	0	:-	b863,274x71,0,0,6
+window	1	0	1	:*	372f,192x53,0,0{69x53,0,0,7,122x53,70,0,8}
+window	1	1	0	:	5e0f,192x53,0,0,10
+window	1	2	0	:-	5e11,192x53,0,0,12
+state	1	0

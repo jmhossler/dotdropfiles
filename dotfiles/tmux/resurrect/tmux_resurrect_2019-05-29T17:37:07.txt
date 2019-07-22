@@ -1,0 +1,7 @@
+pane	0	0	:zsh	1	:*	0	:/home/john/3dprinter/compliant_elephant	1	zsh	:
+pane	0	1	:prusa-slicer	0	:	0	:/mnt/big_boi/Downloads/PrusaSlicer-2.0.0+linux64-201905201652	1	prusa-slicer	:/mnt/big_boi/Downloads/PrusaSlicer-2.0.0+linux64-201905201652/bin/prusa-slicer
+pane	0	2	:zsh	0	:-	0	:/home/john	1	zsh	:
+window	0	0	1	:*	ca5e,213x57,0,0,1
+window	0	1	0	:	ca5f,213x57,0,0,2
+window	0	2	0	:-	ca60,213x57,0,0,3
+state	0	

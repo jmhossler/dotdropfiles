@@ -1,0 +1,18 @@
+pane	0	0	:zsh	1	:*	0	:/home/john/3dprinter/soap_holder	1	zsh	:
+pane	0	1	:prusa-slicer	0	:-	0	:/mnt/big_boi/Downloads/PrusaSlicer-2.0.0+linux64-201905201652	1	zsh	:
+pane	0	2	:zsh	0	:	0	:/home/john/3dprinter	1	zsh	:
+pane	0	2	:zsh	0	:	1	:/mnt/big_boi/Downloads	0	zsh	:
+pane	0	3	:zsh	0	:	0	:/home/john/git/resume-1	1	zsh	:
+pane	0	4	:zsh	0	:	0	:/home/john	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/home/john/hub-tnt	1	zsh	:
+pane	1	1	:zsh	0	:-	0	:/home/john/hub-tnt	1	zsh	:
+pane	1	2	:zsh	0	:	0	:/home/john	1	zsh	:
+window	0	0	1	:*	bbbe,192x53,0,0,1
+window	0	1	0	:-	bbbf,192x53,0,0,2
+window	0	2	0	:	5553,213x57,0,0[213x28,0,0,3,213x28,0,29,4]
+window	0	3	0	:	ca62,213x57,0,0,5
+window	0	4	0	:	b863,274x71,0,0,6
+window	1	0	1	:*	bbc5,192x53,0,0,8
+window	1	1	0	:-	5e0f,192x53,0,0,10
+window	1	2	0	:	5e11,192x53,0,0,12
+state	1	0

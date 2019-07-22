@@ -1,0 +1,17 @@
+pane	0	0	:zsh	0	:	0	:/home/john/3dprinter/soap_holder	1	zsh	:
+pane	0	1	:prusa-slicer	0	:	0	:/mnt/big_boi/Downloads/PrusaSlicer-2.0.0+linux64-201905201652	1	zsh	:
+pane	0	2	:zsh	0	:-	0	:/home/john	1	zsh	:
+pane	0	3	:zsh	1	:*	0	:/home/john/hub-tnt	1	nvim	:nvim script.txt
+pane	0	4	:zsh	0	:	0	:/home/john	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/home/john/hub-tnt	1	zsh	:
+pane	1	1	:zsh	0	:	0	:/home/john/hub-tnt	1	zsh	:
+pane	1	2	:ssh	0	:-	0	:/home/john	1	ssh	:ssh jhossler-desktop -Y
+window	0	0	0	:	c0be,137x35,0,0,1
+window	0	1	0	:	bbbf,192x53,0,0,2
+window	0	2	0	:-	c0c0,137x35,0,0,3
+window	0	3	1	:*	c0c2,137x35,0,0,5
+window	0	4	0	:	b863,274x71,0,0,6
+window	1	0	1	:*	b7a5,96x53,0,0,8
+window	1	1	0	:	5e0f,192x53,0,0,10
+window	1	2	0	:-	5e11,192x53,0,0,12
+state	0	

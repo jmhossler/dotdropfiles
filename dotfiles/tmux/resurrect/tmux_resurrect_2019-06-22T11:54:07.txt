@@ -1,0 +1,22 @@
+pane	0	0	:zsh	0	:	0	:/home/john/3dprinter/elementals	1	zsh	:
+pane	0	1	:prusa-slicer	0	:	0	:/mnt/big_boi/Downloads/PrusaSlicer-2.0.0+linux64-201905201652	1	prusa-slicer	:/mnt/big_boi/Downloads/PrusaSlicer-2.0.0+linux64-201905201652/bin/prusa-slicer
+pane	0	2	:zsh	0	:	0	:/home/john/3dprinter/simple_labyrinth	1	zsh	:
+pane	0	3	:zsh	0	:	0	:/home/john/git/directbot/starters/javascript	1	zsh	:
+pane	0	4	:zsh	0	:	0	:/home/john	1	zsh	:
+pane	0	5	:zsh	0	:-	0	:/mnt/big_boi/Downloads/OcarinaOfTIme 3.0v/WindowsNoEditor/WindowsNoEditor/WindowsNoEditor	0	zsh	:
+pane	0	5	:zsh	0	:-	1	:/home/john/git	1	zsh	:
+pane	0	6	:zsh	1	:*	0	:/home/john/3dprinter/conch	1	zsh	:
+pane	2	0	:zsh	0	:-	0	:/home/john/go/src/server	1	zsh	:
+pane	2	0	:zsh	0	:-	1	:/home/john/go/src/server	0	go	:go run main.go
+pane	2	0	:zsh	0	:-	2	:/home/john/go/src/server	0	zsh	:
+pane	2	1	:zsh	1	:*	0	:/home/john/git/plex-media-server	1	zsh	:
+window	0	0	0	:	bbbe,192x53,0,0,1
+window	0	1	0	:	bbbf,192x53,0,0,2
+window	0	2	0	:	e0b3,128x35,0,0,24
+window	0	3	0	:	de14,192x53,0,0,25
+window	0	4	0	:	bbc3,192x53,0,0,6
+window	0	5	0	:-	5837,96x53,0,0[96x26,0,0,31,96x26,0,27,32]
+window	0	6	1	:*	60b3,128x35,0,0,33
+window	2	0	0	:-	0983,192x53,0,0{136x53,0,0,27,55x53,137,0[55x26,137,0,28,55x26,137,27,29]}
+window	2	1	1	:*	5e10,192x53,0,0,30
+state	0	2
