@@ -10,6 +10,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'numirias/semshi', {'do': ':UpdateRemotePlugins'}
 Plug 'ambv/black'
+Plug 'dense-analysis/ale'
 
 " Vim-Plug end
 call plug#end()
